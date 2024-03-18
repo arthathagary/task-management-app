@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 
 export function Login() {
   return (
-    <section className="w-full py-12 md:py-24">
+    <section className="w-full py-12 md:py-24 justify-center h-screen flex">
       <div className="container px-4 flex flex-col gap-4">
         <Card className="w-full max-w-sm mx-auto">
           <CardHeader className="flex flex-col gap-1.5">
@@ -39,7 +39,7 @@ export function Login() {
         </Card>
         <div className="flex flex-col items-center gap-2 text-sm">
           <span className="text-gray-500">Don&apos;t have an account?</span>
-          <Link className="font-medium underline" href="#">
+          <Link className="font-medium underline" href="/signup">
             Create an account
           </Link>
         </div>
